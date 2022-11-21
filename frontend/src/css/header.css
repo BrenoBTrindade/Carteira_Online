@@ -1,0 +1,50 @@
+.header-section {
+  display: block;
+  top: 0;
+  width: 100%;
+}
+
+
+.header-container {
+  background-color: black;
+  border-radius: 2px;
+  box-shadow: 3px 3px 3px #242424;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin: auto;
+  min-height: 0;
+  min-width: 0;
+  opacity: 0.8;
+  padding: 0;
+  width: 100%;
+  color: white;
+}
+
+.header-container img {
+  width: 100px;
+  padding: 5px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 10px;
+  border-radius: 100px;
+  background-color: black;
+}
+
+.section-2 {
+  display: flex;
+  width: 250px;
+  justify-content: space-evenly;
+}
+
+.section-2 button {
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 8px;
+  font-weight: 700;
+}
+
+

@@ -1,0 +1,14 @@
+{
+  "name": "ng-cash-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pre:install": "cd ./backend && npm i && cd.. && cd./frontend && npm i",
+    "build": "cd ./backend && npx tsc",
+    "pre:dev": "docker-compose up -d && cd ./backend && npx sequelize db:migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

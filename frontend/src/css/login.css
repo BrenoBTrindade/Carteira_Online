@@ -1,0 +1,125 @@
+@media ( min-width : 700px ) {
+
+  .login-page {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #3b3a3a;
+    display: flex;
+    width:400px;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 150px;
+    flex-direction: column;
+  }
+
+  .login-page img {
+    width: 100px;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .login-section {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .login-section input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 200px;
+    height: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .login-buttons{
+    display: flex;
+    justify-content: center
+  }
+
+  .login-buttons button {
+    margin-left: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    width: 100px;
+  }
+
+  .login-buttons button:hover {
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 10px #010010;
+    color: black;
+  }
+
+}
+
+@media ( max-width : 699px ) {
+
+  .login-page {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 160px;
+    flex-direction: column;
+  }
+
+  .login-page img {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .login-section {
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .login-section input {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    width: 250px;
+    height: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .login-buttons{
+    display: flex;
+    justify-content: center
+  }
+
+  .login-buttons button {
+    margin-left: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+    width: 125px;
+  }
+
+}

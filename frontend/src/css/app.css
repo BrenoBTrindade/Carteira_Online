@@ -1,0 +1,22 @@
+@media ( min-width : 700px ) {
+
+  body {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.961) 30%, rgba(0, 0, 0, 0.932) 60%, rgba(0, 0, 0, 0.813) 100%);
+    font-family: Verdana , Geneva , Tahoma , sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+@media ( max-width : 699px ) {
+
+  body {
+    background-color: black;
+    font-family: Verdana , Geneva , Tahoma , sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+}

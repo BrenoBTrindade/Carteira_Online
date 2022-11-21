@@ -1,0 +1,262 @@
+@media ( min-width : 700px ) {
+
+  .cash-out {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    height: 15px;
+  }
+
+  .balance {
+    width: 80px;
+    border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.407);
+    text-align: center;
+    margin-top: -20px;
+    font-size: 15px;
+    margin-right: -50px;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-weight: 700;
+    height: 50px;
+  }
+
+  .table-transactions {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 65%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    height: 100%;
+  }
+
+  .cashout-form  {
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    height: 20px;
+    width: 70%;
+    margin-top: -10px;
+    justify-content: center;
+  }
+
+  .cashout-form  input {
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    padding: 5px;
+    transition: 0.5s;
+    width: 160px;
+  }
+
+  .cashout-form button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .cashout-form button:hover {
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 10px #010010;
+    color: black;
+  }
+
+  .table-transactions th {
+    color: rgba(0, 0, 0, 0.654);
+    padding: 5px;
+    text-align: start;
+    width: 120px;
+    border: solid black 1px;
+  }
+
+  .table-transactions td {
+    padding: 10px;
+    text-align: start;
+    border: solid black 1px;
+  }
+
+  .filter-buttons {
+    display: flex;
+    width: 535px;
+    justify-content: center;
+    height: 55px;
+  }
+
+  .filter-buttons button {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100px;
+    height: 40px;
+  }
+
+  .filter-buttons button:hover {
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 10px #010010;
+    color: black;
+  }
+
+  .filter-buttons input {
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    
+    margin-top: 10px;
+    height: 20px;
+   }
+
+   .filter-buttons p {
+    width: 100px;
+    text-align: center;
+  }
+
+}
+
+@media ( max-width : 699px ) {
+
+  .cash-out {
+    color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+  }
+
+  .balance {
+    border: solid white 1px;
+    border-radius: 5px;
+    position: absolute;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    width: 50px;
+    left: 300px;
+    top: 100px
+  }
+
+  .table-transactions {
+    margin-top: 60px;
+  }
+
+  .cashout-form  {
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10px;
+    justify-content: center;
+    width: 230px;
+  }
+
+  .cashout-form  input {
+    border: 3px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+    outline: none;
+    padding: 5px;
+    transition: 0.5s;
+  }
+
+  .cashout-form  label {
+   margin-top: 10px;
+  }
+
+
+  .cashout-form button {
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 10px;
+    align-self: center;
+    cursor: pointer;
+    padding: 8px;
+  }
+
+  .table-transactions table{
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+  }
+
+  .table-transactions th {
+    border-radius: 5px;
+    padding: 5px;
+    text-align: start;
+    border: solid black 1px;
+  }
+
+  .table-transactions td {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: start;
+    border: solid black 1px;
+  }
+
+  .filter-buttons {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .filter-buttons button {
+    border-radius: 5px;
+    color: black;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    border: none;
+  }
+
+  .filter-buttons button:hover {
+    background-color: white;
+    border: none;
+    box-shadow: 3px 3px 10px #010010;
+    color: black;
+  }
+
+  .filter-buttons input {
+   height: 20px;
+   margin-left: 5px;
+   width: 145px;
+   height: 30px;
+   margin-bottom: 5px;
+  }
+
+  .filter-buttons p {
+    color: white;
+    text-align: center;
+  }
+
+}
