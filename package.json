@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pre:install": "cd ./backend && npm i && cd.. && cd./frontend && npm i",
     "build": "cd ./backend && npx tsc",
-    "pre:dev": "docker-compose up -d && cd ./backend && npx sequelize db:migrate"
+    "pre:dev": "docker-compose up -d && cd ./backend && npx sequelize db:migrate",
+    "dev": "cd ./backend && npm run dev",
+    "start": "cd ./frontend && npm start",
+    "down": "docker-compose down"
   },
   "keywords": [],
   "author": "",

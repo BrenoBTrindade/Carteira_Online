@@ -28,7 +28,7 @@ function RegisterForm() {
         />
         <input 
           type="password"
-          placeholder="Senha"
+          placeholder="Exemplo: @Abcd123"
           value={ password }
           onChange={ ({ target }) => setPassword(target.value) }
         />
