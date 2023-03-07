@@ -4,7 +4,6 @@ Entre em cada uma das pastas e utilize o comando:
 
 
 ## Após instalar as dependencias sera necessario usar alguns comandos a seguir:
-### `docker-compose up -d`
 ### `npm run build`
 ### `npm run pre:dev`
 ### `npm run dev`
